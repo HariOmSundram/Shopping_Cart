@@ -60,10 +60,10 @@ npm test
 shopping-cart-assignment/
 │-- src/
 │   ├── cart.js  # Shopping cart logic
+|   |── apiClient.js  # Handles API requests using axios
 │-- test/
 │   ├── cart.test.js  # Test cases
 │   ├── test_data/  # JSON files for test products
-│-- apiClient.js  # Handles API requests using axios
 │-- package.json  # Project dependencies
 │-- db.json  # Mock database for json-server
 │-- README.md  # Documentation
